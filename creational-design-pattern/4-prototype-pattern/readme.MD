@@ -1,5 +1,5 @@
 Prototype Pattern says that
-### dcloning of an existing object instead of creating new one and can also be customized as per the requirement.
+### Cloning of an existing object instead of creating new one and can also be customized as per the requirement.
 
 This pattern should be followed, if the cost of creating a new object is expensive and resource intensive.
 
