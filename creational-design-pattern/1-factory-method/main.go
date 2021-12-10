@@ -67,8 +67,8 @@ func getPlanFactory(plan string) (iPlan, error) {
 }
 
 func main() {
-	plan1, _ := getPlanFactory("domestic plan")
-	plan2, _ := getPlanFactory("commercial plan")
+	plan1, _ := getPlanFactory("domestic plan")   // Client 1
+	plan2, _ := getPlanFactory("commercial plan") // Client 2
 	printDetails(plan1)
 	printDetails(plan2)
 }
